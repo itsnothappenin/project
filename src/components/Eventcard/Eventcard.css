@@ -1,0 +1,41 @@
+.eventcard {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 20%;
+
+}
+
+.bottom-p1 {
+    font-weight: 600;
+}
+
+.bottom-p1:hover {
+    cursor: pointer;
+    color:green
+}
+
+.bottom-p2 {
+    color: orange;
+    font-weight: 600;
+}
+
+
+.bottom-p3 {
+    color: grey;
+}
+
+.bottom-p3:hover {
+    cursor: pointer;
+    color:green
+}
+
+.eventcard img {
+    transition: all .4s ease-in-out;
+    margin-bottom: 15px;
+}
+
+
+.eventcard img:hover {
+    transform: scale(1.05);
+}
