@@ -1,0 +1,83 @@
+.events {
+    padding: 60px 0;
+
+}
+
+.events-top {
+    margin: 0 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.events-top p {
+    font-size: 24px;
+
+}
+
+.events-top p img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.events-top button {
+    border: none;
+    border-radius: 0;
+    padding: 7px 13px;
+    background-color: rgb(24, 185, 24);
+}
+
+.button2 {
+    background-color: rgb(38, 194, 38) !important;
+}
+
+.button2:hover {
+    background-color: rgb(84, 207, 84) !important;
+}
+
+.events-top button:hover {
+    background-color: rgb(84, 207, 84);
+    cursor: pointer;
+    transition: all .1s ease-in-out
+}
+
+
+.events-top button img {
+    width: 5px;
+}
+
+.events-middle {
+    display: flex;
+    justify-content: center;
+    width: auto;    
+}
+
+.events-bottom {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-bottom p {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(161, 168, 161);
+    margin-right: 25px;
+}
+
+.events-bottom button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: rgb(18, 165, 18);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.events-bottom button:hover {
+    background-color: rgb(84, 207, 84);
+    cursor: pointer;
+    transition: all .1s ease-in-out
+}
