@@ -46,10 +46,10 @@
     margin-bottom: 15px;
 }
 
-.bezdim {
+/* .bezdim {
     display: flex;
     align-items: center;
-}
+} */
 
 .ucard img:hover {
     transform: scale(1.05);
