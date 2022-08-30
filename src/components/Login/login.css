@@ -51,7 +51,7 @@
     outline: none;
 }
 
-.section span{
+.section span {
     float: right;
 }
 
@@ -80,6 +80,13 @@
 
 .formBottom p {
     margin-right: 5px;
+}
+
+.formBottom a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 button:hover {
