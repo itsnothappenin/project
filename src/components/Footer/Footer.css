@@ -2,12 +2,12 @@
     display: flex;
     width: auto;
     justify-content: space-around;
-    align-items:flex-start;
-    background-color: rgb(0, 46, 87);
+    align-items: flex-start;
+    background-color: #2B4865;
     padding: 50px 40px;
 }
 
-.footer-part-1 a{
+.footer-part-1 a {
     text-decoration: none;
     color: rgb(156, 177, 197);
     font-weight: 400;
@@ -19,11 +19,14 @@
     font-weight: 400;
 }
 
-.footer-part-1 p{
+.footer-part-1 p {
     color: rgb(156, 177, 197);
 }
 
-.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
     line-height: 3;
 }
 
@@ -45,8 +48,9 @@
 }
 
 .footer-part-2 {
-    padding: 20px;;
+    padding: 20px;
+    ;
     color: white;
-    background-color: rgb(0, 26, 49);
+    background-color: #002B5B;
     text-align: center;
 }

@@ -1,5 +1,6 @@
 .events {
     padding: 60px 0;
+    background-color: white;
 
 }
 
@@ -24,11 +25,11 @@
     border: none;
     border-radius: 0;
     padding: 7px 13px;
-    background-color: rgb(24, 185, 24);
+    background-color: #026670;
 }
 
 .button2 {
-    background-color: rgb(38, 194, 38) !important;
+    background-color: #01747e !important;
 }
 
 .button2:hover {
@@ -49,7 +50,7 @@
 .events-middle {
     display: flex;
     justify-content: center;
-    width: auto;    
+    width: auto;
 }
 
 .events-bottom {
@@ -70,7 +71,7 @@
     border: none;
     border-radius: 5px;
     padding: 15px 25px;
-    background-color: rgb(18, 165, 18);
+    background-color: #026670;
     color: white;
     font-size: 14px;
     font-weight: 700;
