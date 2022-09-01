@@ -1,5 +1,10 @@
 import './Header.css'
 import logo from './logo.png'
+import user from './user.svg'
+import lupa from './lupa.svg'
+import heart from './heart.svg'
+import cart from './cart.svg'
+
 import { Routes, Route, Link } from "react-router-dom";
 
 
@@ -28,14 +33,18 @@ function Header() {
 
 
             <div className='menu'>
-                <img src={logo} />
+                <img src={logo} className="logo" />
                 <div className='navbar'>
-                    <a href='#'>HOME</a>
-                    <a href='#'>EVENTS</a>
-                    <a href='#'>SHOP</a>
-                    <a href='#'>NEWS</a>
-                    <a href='#'>SHORTCODES</a>
-                    <a href='#'>HOW IT WORK?</a>
+                    <Link to='/'>HOME</Link>
+                    <Link to='/events'>EVENTS</Link>
+                    <Link to='/news'>NEWS</Link>
+                    <button><img src={lupa} alt="" /></button>
+                    <Link to="/favorites"><img src={heart} alt="" /></Link>
+                    <Link to="/cart"><img src={cart} alt="" /></Link>
+                    <Link to="/login"><img src={user} alt="" /></Link> 
+                    {/* burda loginin altinda shey achilmalidi */}
+
+
                 </div>
             </div>
         </>

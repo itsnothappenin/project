@@ -15,6 +15,10 @@ function App() {
         <Route>
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
+          <Route path ="events" element={<Eventpage />} /> 
+          <Route path ="news" element={<Newspage />} />
+          <Route path="favorites" element={<Favpage />} />
+          <Route path="cart" element={<Cartpage />} />
         </Route>
       </Routes>
     </>
@@ -29,3 +33,50 @@ function Home() {
 }
 
 export default App;
+
+function Eventpage() {
+  return (
+    <>
+      <Header />
+      Eventpage
+      <Footer />
+    </>
+    
+  )
+}
+
+function Newspage() {
+  return (
+    <>
+      <Header />
+      newspage
+      <Footer />
+      
+
+    </>
+    
+  )
+}
+
+function Favpage() {
+  return (
+    <>
+      <Header />
+      favpage
+      <Footer />
+      
+    </>
+    
+  )
+}
+
+function Cartpage() {
+  return (
+    <>
+      <Header />
+      cartpage
+      <Footer />
+    </>
+    
+  )
+}
