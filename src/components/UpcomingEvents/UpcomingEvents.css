@@ -1,17 +1,17 @@
 .upcomings {
-    background-color: rgb(247, 243, 243);
+    background-color: #fef9cf;
     padding: 40px 0;
 
 }
 
-.upcomings-top  {
+.upcomings-top {
     display: flex;
     width: auto;
     align-items: center;
     justify-content: space-around;
 }
 
-.upcomings-top p{
+.upcomings-top p {
     font-size: 24px;
 }
 
