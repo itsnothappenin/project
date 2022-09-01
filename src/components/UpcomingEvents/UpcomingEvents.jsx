@@ -1,6 +1,6 @@
 import './UpcomingEvents.css'
-import Ucard from './UCard/Ucard'
 import calendar from './calendar-days-solid.svg'
+import AutoSwiperSection from '../Swiper/AutoSwiperSection'
 
 function UpcomingEvents () {
     return (
@@ -15,8 +15,7 @@ function UpcomingEvents () {
             </div>
         </div>
             <div className="upcomings-middle">
-                <Ucard />
-                <Ucard />
+                <AutoSwiperSection />
             </div>
         </div>
 

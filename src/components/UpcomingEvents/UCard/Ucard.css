@@ -31,9 +31,9 @@
     color:green
 }
 
-.view {
-    width: 15px;
-}
+/* .view {
+    width: 5px;
+} */
 
 .event-view {
     display: flex;
@@ -42,15 +42,10 @@
 }
 
 .ucard img {
-    transition: all .4s ease-in-out;
     margin-bottom: 15px;
 }
 
-/* .bezdim {
-    display: flex;
-    align-items: center;
-} */
-
-.ucard img:hover {
-    transform: scale(1.05);
+.swiper-slide {
+    text-align: left;
 }
+

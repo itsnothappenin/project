@@ -11,10 +11,10 @@ function Ucard () {
             <p className='bottom-p2'>25$ - 75$</p>
             <div className='event-view'>
                 <p className='bottom-p3'>Event.</p>
-                <div>
+                {/* <div>
                     <img className='view' src={eye}/>
                     <span>674</span>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

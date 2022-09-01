@@ -12,39 +12,21 @@ import { Routes, Route, Link } from "react-router-dom";
 function Header() {
     return (
         <>
-            {/* <Routes>
-                <div className='menu'>
-                    <nav>
-                        <img src={logo} />
-                        <ul className='navbar'>
-                            <li>
-                                <Link to="/">Home</Link>
-                            </li>
-                            <li>
-                                <Link to="/about">About</Link>
-                            </li>
-                            <li>
-                                <Link to="/users">Users</Link>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </Routes> */}
-
-
             <div className='menu'>
-                <img src={logo} className="logo" />
-                <div className='navbar'>
-                    <Link to='/'>HOME</Link>
-                    <Link to='/events'>EVENTS</Link>
-                    <Link to='/news'>NEWS</Link>
-                    <button><img src={lupa} alt="" /></button>
-                    <Link to="/favorites"><img src={heart} alt="" /></Link>
-                    <Link to="/cart"><img src={cart} alt="" /></Link>
-                    <Link to="/login"><img src={user} alt="" /></Link> 
+                <div className='nese'>
+                    <Link to="/"className="logo"><img src={logo} /></Link>
+                    <div className='navbar'>
+                        <Link to='/'>HOME</Link>
+                        <Link to='/events'>EVENTS</Link>
+                        <Link to='/news'>NEWS</Link>
+                    </div>
+                </div>
+                <div className='icons'>
+                    <button className='seachButton'><img className='lupa' src={lupa} alt="" /></button>
+                    <Link to="/favorites"><img className='heart' src={heart} alt="" /></Link>
+                    <Link to="/cart"><img className='cart' src={cart} alt=""  /></Link>
+                    <Link to="/login"><img className='user'src={user} alt="" /></Link> 
                     {/* burda loginin altinda shey achilmalidi */}
-
-
                 </div>
             </div>
         </>
