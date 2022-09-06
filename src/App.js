@@ -8,17 +8,17 @@ import Login from './components/Login/login'
 import { Routes, Route, Link } from "react-router-dom";
 import VerticalSwiper from './components/Swiper/VerticalSwiper';
 import EventPage from './components/EventPage';
+import 'antd/dist/antd.css';
 
 function App() {
   return (
     <>
-      {/* <Login /> */}
       <Routes>
         <Route>
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
-          <Route path ="events" element={<Eventpage />} /> 
-          <Route path ="news" element={<Newspage />} />
+          <Route path="events" element={<Eventpage />} />
+          <Route path="news" element={<Newspage />} />
           <Route path="favorites" element={<Favpage />} />
           <Route path="cart" element={<Cartpage />} />
         </Route>
@@ -30,8 +30,8 @@ function App() {
 
 function Home() {
   return (
-    <><Header /> <Cards /><UpcomingEvents /><Events /><Footer /></>
-  )
+    <><Header /><VerticalSwiper /><Cards /><UpcomingEvents /><Events /><Footer /></>
+  )``
 }
 
 export default App;
@@ -40,10 +40,10 @@ function Eventpage() {
   return (
     <>
       <Header />
-        <EventPage />
-       <Footer />
+      <EventPage />
+      <Footer />
     </>
-    
+
   )
 }
 
@@ -53,10 +53,10 @@ function Newspage() {
       <Header />
       newspage
       <Footer />
-      
+
 
     </>
-    
+
   )
 }
 
@@ -66,9 +66,9 @@ function Favpage() {
       <Header />
       favpage
       <Footer />
-      
+
     </>
-    
+
   )
 }
 
@@ -79,6 +79,6 @@ function Cartpage() {
       cartpage
       <Footer />
     </>
-    
+
   )
 }
