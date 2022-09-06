@@ -24,13 +24,14 @@
 }
 
 /* .price input { */
-    
+
 
 .none {
     display: none;
 }
 
-select, input:focus {
+select,
+input:focus {
     outline: none;
 }
 
